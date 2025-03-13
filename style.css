@@ -1,4 +1,4 @@
-/********************************
+/* /********************************
           NAV BAR Styles
 ********************************/
 .topnav{
@@ -29,7 +29,7 @@
 .topnav a.active{
     background-color: burlywood;
     color: brown;
-}
+} */
 
 /********************************
           BODY Styles
@@ -37,4 +37,12 @@
 body{
     padding-top: 30px;
     background-color:blanchedalmond;
+}
+
+h1{
+    color: rgb(93, 170, 116);
+}
+
+h2{
+    color: pink;
 }
