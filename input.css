@@ -1,11 +1,1 @@
 @import "tailwindcss";
-
-#welcome-title{
-    color: white;
-    font-size: 200px;
-}
-
-#welcome-message{
-    color: white;
-    font-size: 75px;
-}
