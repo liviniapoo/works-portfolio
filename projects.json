@@ -1,0 +1,32 @@
+[
+    {
+        "project-name": "3D Chess Set Model",
+        "project-description": "",
+        "tags": ["3D", "Autodesk Maya", "Adobe Substance Painter"]
+    },
+    {
+        "project-name": "\"Give Your Love\" Mobile Game Prototype",
+        "project-description": "",
+        "tags": ["Game Design", "Figma", "Adobe Illustrator"]
+    },
+    {
+        "project-name": "The Dreamy Oracle",
+        "project-description": "",
+        "tags": ["Game Design", "Canva", "Adobe Illustrator"]
+    },
+    {
+        "project-name": "NCT Dream Fan-Webpage",
+        "project-description": "",
+        "tags": ["Web Design", "Visual Studio Code", "HTML", "CSS", "JavaScript"]
+    },
+    {
+        "project-name": "Shein Rework",
+        "project-description": "",
+        "tags": ["Adobe Photoshop", "Figma", "Canva"]
+    },
+    {
+        "project-name": "The Wookie Playtime Store Website",
+        "project-description": "",
+        "tags": ["Web Design", "Visual Studio Code", "HTML", "CSS", "JavaScript", "JSON", "Database and API"]
+    },
+]
