@@ -22,11 +22,36 @@
     {
         "project-name": "Shein Rework",
         "project-description": "",
-        "tags": ["Adobe Photoshop", "Figma", "Canva"]
+        "tags": ["Design","Adobe Photoshop", "Figma", "Canva"]
     },
     {
         "project-name": "The Wookie Playtime Store Website",
         "project-description": "",
         "tags": ["Web Design", "Visual Studio Code", "HTML", "CSS", "JavaScript", "JSON", "Database and API"]
+    },
+    {
+        "project-name": "Medieval Environment",
+        "project-description": "3D Modular Environment focused around a Round Table and Floating Crystal",
+        "tags": ["3D", "Autodesk Maya", "Adobe Substance Painter", "Z-Brush", "Unity"]
+    },
+    {
+        "project-name": "Office Building",
+        "project-description": "Simple Modularly Built 3D Office Environment",
+        "tags": ["3D", "Autodesk Maya", "Unity", "ProBuilder"]
+    },
+    {
+        "project-name": "DA V2 App",
+        "project-description": "Prototype of a new version of the TeleMedical Doctor Anywhere App",
+        "tags": ["Design", "Figma", "Canva"]
+    },
+    {
+        "project-name": "Escape Terra",
+        "project-description": "",
+        "tags": ["3D", "Game Design", "Autodesk Maya", "Adobe Substance Painter", "Unity", "C#"]
+    },
+    {
+        "project-name": "Festival Chaos",
+        "project-description": "",
+        "tags": ["3D", "Design", "Game Design", "Autodesk Maya", "Adobe Substance Painter", "Unity", "C#", "Figma"]
     },
 ]
