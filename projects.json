@@ -54,4 +54,29 @@
         "project-description": "",
         "tags": ["3D", "Design", "Game Design", "Autodesk Maya", "Adobe Substance Painter", "Unity", "C#", "Figma"]
     },
-]
+    {
+        "project-name": "Sassy Girl Character",
+        "project-description": "",
+        "tags": ["3D", "Design", "Autodesk Maya", "Adobe Substance Painter", "Blender", "Adobe Photoshop", "Adobe Mixamo"]
+    },
+    {
+        "project-name": "Sudoku Mobile Game",
+        "project-description": "",
+        "tags": ["Design", "Unity", "C#", "Canva", "Google Firebase"]
+    },
+    {
+        "project-name": "Alphapop AR Game",
+        "project-description": "",
+        "tags": ["Design", "Game Design", "Canva", "Unity AR", "C#"]
+    },
+    {
+        "project-name": "Barista Blend",
+        "project-description": "",
+        "tags": ["3D", "Game Design", "Canva", "Unity VR", "C#", "Google Firebase"]
+    },
+    {
+        "project-name": "Solace of Service",
+        "project-description": "",
+        "tags": ["3D", "Design", "Game Design", "Autodesk Maya", "Adobe Substance Painter", "Adobe Mixamo", "Unity VR", "Canva", "C#", "Google Firebase"]
+    },
+] 
