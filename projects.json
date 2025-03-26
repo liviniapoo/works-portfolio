@@ -1,57 +1,68 @@
 [
     {
         "project-name": "3D Chess Set Model",
-        "project-description": "",
+        "project-description": "One of my first few 3D Modelling projects: To create a Chess Set",
+        "main-focus": "3D Modelling",
         "tags": ["3D", "Autodesk Maya", "Adobe Substance Painter"]
     },
     {
         "project-name": "\"Give Your Love\" Mobile Game Prototype",
-        "project-description": "",
+        "project-description": "Using basic Figma interactions, made a simple game about giving to Charity!",
+        "main-focus": "Game Design",
         "tags": ["Game Design", "Figma", "Adobe Illustrator"]
     },
     {
         "project-name": "The Dreamy Oracle",
-        "project-description": "",
+        "project-description": "A physical adventure card-game",
+        "main-focus": "Game Design",
         "tags": ["Game Design", "Canva", "Adobe Illustrator"]
     },
     {
         "project-name": "NCT Dream Fan-Webpage",
-        "project-description": "",
+        "project-description": "Fan-made page made from scratch surrounding Korean Boy Group NCT Dream",
+        "main-focus": "Web Design",
         "tags": ["Web Design", "Visual Studio Code", "HTML", "CSS", "JavaScript"]
     },
     {
-        "project-name": "Shein Rework",
-        "project-description": "",
+        "project-name": "Shein Rework (2023)",
+        "project-description": "Figma prototype of my take on how a reworked SHEIN would look like",
+        "main-focus": "Design",
         "tags": ["Design","Adobe Photoshop", "Figma", "Canva"]
     },
     {
         "project-name": "The Wookie Playtime Store Website",
-        "project-description": "",
+        "project-description": "Web store for a group project to sell \"merchandise\" created for that project",
+        "main-focus": "Web Design",
         "tags": ["Web Design", "Visual Studio Code", "HTML", "CSS", "JavaScript", "JSON", "Database and API"]
     },
     {
         "project-name": "Medieval Environment",
         "project-description": "3D Modular Environment focused around a Round Table and Floating Crystal",
+        "main-focus": "3D Modelling",
         "tags": ["3D", "Autodesk Maya", "Adobe Substance Painter", "Z-Brush", "Unity"]
     },
     {
         "project-name": "Office Building",
         "project-description": "Simple Modularly Built 3D Office Environment",
+        "main-focus": "3D Modelling",
         "tags": ["3D", "Autodesk Maya", "Unity", "ProBuilder"]
     },
     {
         "project-name": "DA V2 App",
         "project-description": "Prototype of a new version of the TeleMedical Doctor Anywhere App",
+        "main-focus": "Design",
         "tags": ["Design", "Figma", "Canva"]
     },
     {
         "project-name": "Escape Terra",
-        "project-description": "",
+        "project-description": "Very simple adventure game about escaping an unknown planet",
+        "main-focus": "Game Design",
         "tags": ["3D", "Game Design", "Autodesk Maya", "Adobe Substance Painter", "Unity", "C#"]
     },
     {
         "project-name": "Festival Chaos",
-        "project-description": "",
+        "project-description": "Simple game about helping a town get ready for their annual Harvest Festival",
+        "main-focus": "Game Design",
         "tags": ["3D", "Design", "Game Design", "Autodesk Maya", "Adobe Substance Painter", "Unity", "C#", "Figma"]
     },
     {
@@ -78,5 +89,5 @@
         "project-name": "Solace of Service",
         "project-description": "",
         "tags": ["3D", "Design", "Game Design", "Autodesk Maya", "Adobe Substance Painter", "Adobe Mixamo", "Unity VR", "Canva", "C#", "Google Firebase"]
-    },
+    }
 ] 
