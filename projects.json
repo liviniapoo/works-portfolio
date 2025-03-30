@@ -67,27 +67,32 @@
     },
     {
         "project-name": "Sassy Girl Character",
-        "project-description": "",
+        "project-description": "My first try at modelling my own character",
+        "main-focus": "3D Modelling",
         "tags": ["3D", "Design", "Autodesk Maya", "Adobe Substance Painter", "Blender", "Adobe Photoshop", "Adobe Mixamo"]
     },
     {
         "project-name": "Sudoku Mobile Game",
-        "project-description": "",
+        "project-description": "Simple sudoku game utilising Firebase and Unity",
+        "main-focus": "Game Design",
         "tags": ["Design", "Unity", "C#", "Canva", "Google Firebase"]
     },
     {
         "project-name": "Alphapop AR Game",
-        "project-description": "",
+        "project-description": "Vowel flashcards learning app for kids to learn with 3D models!",
+        "main-focus": "Game Design",
         "tags": ["Design", "Game Design", "Canva", "Unity AR", "C#"]
     },
     {
         "project-name": "Barista Blend",
-        "project-description": "",
+        "project-description": "Coffee Barista Simulation game in Unity VR (Game is in progress of being fixed)",
+        "main-focus": "Game Design",
         "tags": ["3D", "Game Design", "Canva", "Unity VR", "C#", "Google Firebase"]
     },
     {
         "project-name": "Solace of Service",
-        "project-description": "",
+        "project-description": "Work as a Social Worker Admin in Unity VR (Game is in progress of being fixed)",
+        "main-focus": "Game Design",
         "tags": ["3D", "Design", "Game Design", "Autodesk Maya", "Adobe Substance Painter", "Adobe Mixamo", "Unity VR", "Canva", "C#", "Google Firebase"]
     }
 ] 
