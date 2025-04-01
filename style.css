@@ -8,8 +8,12 @@
       "Courier New", monospace;
     --color-red-500: oklch(0.637 0.237 25.331);
     --color-blue-200: oklch(0.882 0.059 254.128);
+    --color-blue-300: oklch(0.809 0.105 251.813);
     --color-blue-400: oklch(0.707 0.165 254.624);
+    --color-blue-500: oklch(0.623 0.214 259.815);
+    --color-gray-100: oklch(0.967 0.003 264.542);
     --color-gray-300: oklch(0.872 0.01 258.338);
+    --color-gray-400: oklch(0.707 0.022 261.325);
     --color-gray-700: oklch(0.373 0.034 259.733);
     --color-gray-900: oklch(0.21 0.034 264.665);
     --color-white: #fff;
@@ -454,6 +458,9 @@
   }
   .min-h-screen {
     min-height: 100vh;
+  }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
   }
   .w-1\/2 {
     width: calc(1/2 * 100%);
@@ -1088,6 +1095,12 @@
   .bg-blue-200 {
     background-color: var(--color-blue-200);
   }
+  .bg-blue-300 {
+    background-color: var(--color-blue-300);
+  }
+  .bg-blue-400 {
+    background-color: var(--color-blue-400);
+  }
   .bg-gray-900 {
     background-color: var(--color-gray-900);
   }
@@ -1275,8 +1288,17 @@
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
   }
+  .px-\[10vw\] {
+    padding-inline: 10vw;
+  }
+  .px-\[15vw\] {
+    padding-inline: 15vw;
+  }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
+  }
+  .pt-\[17vh\] {
+    padding-top: 17vh;
   }
   .pt-\[20px\] {
     padding-top: 20px;
@@ -1286,9 +1308,6 @@
   }
   .pt-\[50px\] {
     padding-top: 50px;
-  }
-  .pt-\[250px\] {
-    padding-top: 250px;
   }
   .pb-\[1vh\] {
     padding-bottom: 1vh;
@@ -1351,6 +1370,12 @@
   }
   .text-\[20px\] {
     font-size: 20px;
+  }
+  .text-\[60px\] {
+    font-size: 60px;
+  }
+  .text-\[80px\] {
+    font-size: 80px;
   }
   .text-\[100px\] {
     font-size: 100px;
@@ -1445,11 +1470,26 @@
   .\[color\:red\]\/50\! {
     color: color-mix(in oklab, red 50%, transparent) !important;
   }
+  .text-\[px\] {
+    color: px;
+  }
+  .text-blue-300 {
+    color: var(--color-blue-300);
+  }
   .text-blue-400 {
     color: var(--color-blue-400);
   }
+  .text-blue-500 {
+    color: var(--color-blue-500);
+  }
+  .text-gray-100 {
+    color: var(--color-gray-100);
+  }
   .text-gray-300 {
     color: var(--color-gray-300);
+  }
+  .text-gray-400 {
+    color: var(--color-gray-400);
   }
   .text-white {
     color: var(--color-white);
@@ -1891,6 +1931,20 @@
   }
   .transform-view {
     transform-box: view-box;
+  }
+  .hover\:bg-blue-200 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-blue-200);
+      }
+    }
+  }
+  .hover\:bg-blue-300 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-blue-300);
+      }
+    }
   }
   .hover\:bg-gray-700 {
     &:hover {
