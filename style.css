@@ -12,6 +12,8 @@
     --color-gray-400: oklch(0.707 0.022 261.325);
     --color-white: #fff;
     --spacing: 0.25rem;
+    --text-4xl: 2.25rem;
+    --text-4xl--line-height: calc(2.5 / 2.25);
     --text-5xl: 3rem;
     --text-5xl--line-height: 1;
     --font-weight-medium: 500;
@@ -461,8 +463,20 @@
   .w-1\/4 {
     width: calc(1/4 * 100%);
   }
+  .w-\[9\] {
+    width: 9;
+  }
+  .w-\[32\%\] {
+    width: 32%;
+  }
+  .w-\[35\%\] {
+    width: 35%;
+  }
   .w-\[90\%\] {
     width: 90%;
+  }
+  .w-\[95\%\] {
+    width: 95%;
   }
   .w-\[100vw\] {
     width: 100vw;
@@ -481,6 +495,12 @@
   }
   .max-w-screen {
     max-width: 100vw;
+  }
+  .min-w-\[240px\] {
+    min-width: 240px;
+  }
+  .min-w-\[300px\] {
+    min-width: 300px;
   }
   .min-w-screen {
     min-width: 100vw;
@@ -1338,6 +1358,10 @@
   .align-top {
     vertical-align: top;
   }
+  .text-4xl {
+    font-size: var(--text-4xl);
+    line-height: var(--tw-leading, var(--text-4xl--line-height));
+  }
   .text-5xl {
     font-size: var(--text-5xl);
     line-height: var(--tw-leading, var(--text-5xl--line-height));
@@ -1908,11 +1932,13 @@
   }
 }
 .image-wrapper {
-  width: 23vw;
-  height: 23vh;
+  width: 25vw;
+  aspect-ratio: 1/1;
 }
 .image-wrapper img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   clip-path: circle();
 }
 @property --tw-translate-x {
