@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/******************
+    PROFILE IMG
+*******************/
 .image-wrapper{
     width: 25vw;
     aspect-ratio: 1/1;
@@ -10,4 +13,88 @@
     height: 100%;
     object-fit: cover;
     clip-path: circle();
+}
+
+/******************
+      SKILLSETS
+*******************/
+.skillsets-div{
+    padding-bottom: 500px;
+    margin-bottom: 75px;
+}
+
+.skillset-grid-container{
+    display: grid;
+    grid-template-rows: 10vh 10vh 10vh;
+    grid-template-columns: 10vw 10vw 10vw 10vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.skillset1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    margin-top: 13px;
+    margin-bottom: 20px;
+}
+.skillset2{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    margin-top: 13px;
+    margin-bottom: 20px;
+}
+.skillset3{
+    grid-row: 1/2;
+    grid-column: 3/4;
+    margin-bottom: 20px;
+}
+.skillset4{
+    grid-row: 1/2;
+    grid-column: 4/5;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.skillset5{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    margin-top: 175px;
+}
+.skillset6{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin-top: 175px;
+}
+.skillset7{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    margin-top: 175px;
+}
+.skillset8{
+    grid-row: 2/3;
+    grid-column: 4/5;
+    margin-top: 175px;
+}
+.skillset9{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    margin-top: 350px;
+}
+.skillset10{
+    grid-row: 3/4;
+    grid-column: 2/3;
+    margin-top: 330px;
+    margin-left: 40px;
+}
+.skillset11{
+    grid-row: 3/4;
+    grid-column: 3/4;
+    margin-top: 340px;
+    margin-left: 30px;
+}
+.skillset12{
+    grid-row: 3/4;
+    grid-column: 4/5;
+    margin-top: 325px;
+    margin-left: 40px;
 }
