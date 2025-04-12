@@ -18,6 +18,7 @@
     --leading-tight: 1.25;
     --radius-md: 0.375rem;
     --radius-2xl: 1rem;
+    --radius-4xl: 2rem;
     --ease-in: cubic-bezier(0.4, 0, 1, 1);
     --ease-out: cubic-bezier(0, 0, 0.2, 1);
     --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
@@ -353,6 +354,9 @@
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
   }
+  .mb-7 {
+    margin-bottom: calc(var(--spacing) * 7);
+  }
   .box-border {
     box-sizing: border-box;
   }
@@ -469,6 +473,9 @@
   }
   .w-1\/2 {
     width: calc(1/2 * 100%);
+  }
+  .w-\[7vw\] {
+    width: 7vw;
   }
   .w-\[100vw\] {
     width: 100vw;
@@ -973,6 +980,9 @@
   }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
+  }
+  .rounded-4xl {
+    border-radius: var(--radius-4xl);
   }
   .rounded-md {
     border-radius: var(--radius-md);
@@ -1953,6 +1963,7 @@
   clip-path: circle();
 }
 .skillsets-div {
+  width: 47vw;
   padding-bottom: 500px;
   margin-bottom: 75px;
 }
@@ -2029,6 +2040,45 @@
   grid-column: 4/5;
   margin-top: 325px;
   margin-left: 40px;
+}
+.contact-grid-container {
+  display: grid;
+  grid-template-rows: 8vh 8vh 8vh;
+  grid-template-columns: 7vw 30vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.phone-icon {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+.email-icon {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  margin-top: 7vh;
+}
+.artstation-icon {
+  grid-row: 3/4;
+  grid-column: 1/2;
+  margin-top: 13.75vh;
+}
+.phone-number {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  margin-top: 3.9vh;
+  margin-left: 2vw;
+}
+.email-text {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  margin-top: 10.6vh;
+  margin-left: 2vw;
+}
+.artstation-link {
+  grid-row: 3/4;
+  grid-column: 2/3;
+  margin-top: 17vh;
+  margin-left: 2vw;
 }
 @property --tw-translate-x {
   syntax: "*";

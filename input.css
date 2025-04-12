@@ -19,6 +19,7 @@
       SKILLSETS
 *******************/
 .skillsets-div{
+    width: 47vw;
     padding-bottom: 500px;
     margin-bottom: 75px;
 }
@@ -97,4 +98,49 @@
     grid-column: 4/5;
     margin-top: 325px;
     margin-left: 40px;
+}
+
+/******************
+      CONTACT
+*******************/
+.contact-grid-container{
+    display: grid;
+    grid-template-rows: 8vh 8vh 8vh;
+    grid-template-columns: 7vw 30vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.phone-icon{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.email-icon{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    margin-top: 7vh;
+}
+.artstation-icon{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    margin-top: 13.75vh;
+}
+
+.phone-number{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    margin-top: 3.9vh;
+    margin-left: 2vw;
+}
+.email-text{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin-top: 10.6vh;
+    margin-left: 2vw;
+}
+.artstation-link{
+    grid-row: 3/4;
+    grid-column: 2/3;
+    margin-top: 17vh;
+    margin-left: 2vw;
 }
