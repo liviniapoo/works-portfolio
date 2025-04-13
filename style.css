@@ -351,6 +351,9 @@
   .mt-6 {
     margin-top: calc(var(--spacing) * 6);
   }
+  .mt-\[50px\] {
+    margin-top: 50px;
+  }
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
   }
@@ -1375,9 +1378,6 @@
   }
   .text-\[125px\] {
     font-size: 125px;
-  }
-  .text-\[150px\] {
-    font-size: 150px;
   }
   .text-\[200px\] {
     font-size: 200px;

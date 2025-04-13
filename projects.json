@@ -1,98 +1,130 @@
 [
     {
+        "project-img": "media/portfolio-img placeholder.jpg",
         "project-name": "3D Chess Set Model",
         "project-description": "One of my first few 3D Modelling projects: To create a Chess Set",
         "main-focus": "3D Modelling",
-        "tags": ["3D", "Autodesk Maya", "Adobe Substance Painter"]
+        "tags": ["3D", "Autodesk Maya", "Adobe Substance Painter"],
+        "url": ""
     },
     {
+        "project-img": "media/portfolio-img placeholder.jpg",
         "project-name": "\"Give Your Love\" Mobile Game Prototype",
         "project-description": "Using basic Figma interactions, made a simple game about giving to Charity!",
         "main-focus": "Game Design",
-        "tags": ["Game Design", "Figma", "Adobe Illustrator"]
+        "tags": ["Game Design", "Figma", "Adobe Illustrator"],
+        "url": ""
     },
     {
+        "project-img": "media/portfolio-img placeholder.jpg",
         "project-name": "The Dreamy Oracle",
         "project-description": "A physical adventure card-game",
         "main-focus": "Game Design",
-        "tags": ["Game Design", "Canva", "Adobe Illustrator"]
+        "tags": ["Game Design", "Canva", "Adobe Illustrator"],
+        "url": ""
     },
     {
+        "project-img": "media/portfolio-img placeholder.jpg",
         "project-name": "NCT Dream Fan-Webpage",
         "project-description": "Fan-made page made from scratch surrounding Korean Boy Group NCT Dream",
         "main-focus": "Web Design",
-        "tags": ["Web Design", "Visual Studio Code", "HTML", "CSS", "JavaScript"]
+        "tags": ["Web Design", "Visual Studio Code", "HTML", "CSS", "JavaScript"],
+        "url": ""
     },
     {
+        "project-img": "media/portfolio-img placeholder.jpg",
         "project-name": "Shein Rework (2023)",
         "project-description": "Figma prototype of my take on how a reworked SHEIN would look like",
         "main-focus": "Design",
-        "tags": ["Design","Adobe Photoshop", "Figma", "Canva"]
+        "tags": ["Design","Adobe Photoshop", "Figma", "Canva"],
+        "url": ""
     },
     {
+        "project-img": "media/portfolio-img placeholder.jpg",
         "project-name": "The Wookie Playtime Store Website",
         "project-description": "Web store for a group project to sell \"merchandise\" created for that project",
         "main-focus": "Web Design",
-        "tags": ["Web Design", "Visual Studio Code", "HTML", "CSS", "JavaScript", "JSON", "Database and API"]
+        "tags": ["Web Design", "Visual Studio Code", "HTML", "CSS", "JavaScript", "JSON", "Database and API"],
+        "url": ""
     },
     {
+        "project-img": "media/portfolio-img placeholder.jpg",
         "project-name": "Medieval Environment",
         "project-description": "3D Modular Environment focused around a Round Table and Floating Crystal",
         "main-focus": "3D Modelling",
-        "tags": ["3D", "Autodesk Maya", "Adobe Substance Painter", "Z-Brush", "Unity"]
+        "tags": ["3D", "Autodesk Maya", "Adobe Substance Painter", "Z-Brush", "Unity"],
+        "url": ""
     },
     {
+        "project-img": "media/portfolio-img placeholder.jpg",
         "project-name": "Office Building",
         "project-description": "Simple Modularly Built 3D Office Environment",
         "main-focus": "3D Modelling",
-        "tags": ["3D", "Autodesk Maya", "Unity", "ProBuilder"]
+        "tags": ["3D", "Autodesk Maya", "Unity", "ProBuilder"],
+        "url": ""
     },
     {
+        "project-img": "media/portfolio-img placeholder.jpg",
         "project-name": "DA V2 App",
         "project-description": "Prototype of a new version of the TeleMedical Doctor Anywhere App",
         "main-focus": "Design",
-        "tags": ["Design", "Figma", "Canva"]
+        "tags": ["Design", "Figma", "Canva"],
+        "url": ""
     },
     {
+        "project-img": "media/portfolio-img placeholder.jpg",
         "project-name": "Escape Terra",
         "project-description": "Very simple adventure game about escaping an unknown planet",
         "main-focus": "Game Design",
-        "tags": ["3D", "Game Design", "Autodesk Maya", "Adobe Substance Painter", "Unity", "C#"]
+        "tags": ["3D", "Game Design", "Autodesk Maya", "Adobe Substance Painter", "Unity", "C#"],
+        "url": ""
     },
     {
+        "project-img": "media/portfolio-img placeholder.jpg",
         "project-name": "Festival Chaos",
         "project-description": "Simple game about helping a town get ready for their annual Harvest Festival",
         "main-focus": "Game Design",
-        "tags": ["3D", "Design", "Game Design", "Autodesk Maya", "Adobe Substance Painter", "Unity", "C#", "Figma"]
+        "tags": ["3D", "Design", "Game Design", "Autodesk Maya", "Adobe Substance Painter", "Unity", "C#", "Figma"],
+        "url": ""
     },
     {
+        "project-img": "media/portfolio-img placeholder.jpg",
         "project-name": "Sassy Girl Character",
         "project-description": "My first try at modelling my own character",
         "main-focus": "3D Modelling",
-        "tags": ["3D", "Design", "Autodesk Maya", "Adobe Substance Painter", "Blender", "Adobe Photoshop", "Adobe Mixamo"]
+        "tags": ["3D", "Design", "Autodesk Maya", "Adobe Substance Painter", "Blender", "Adobe Photoshop", "Adobe Mixamo"],
+        "url": ""
     },
     {
+        "project-img": "media/portfolio-img placeholder.jpg",
         "project-name": "Sudoku Mobile Game",
         "project-description": "Simple sudoku game utilising Firebase and Unity",
         "main-focus": "Game Design",
-        "tags": ["Design", "Unity", "C#", "Canva", "Google Firebase"]
+        "tags": ["Design", "Unity", "C#", "Canva", "Google Firebase"],
+        "url": ""
     },
     {
+        "project-img": "media/portfolio-img placeholder.jpg",
         "project-name": "Alphapop AR Game",
         "project-description": "Vowel flashcards learning app for kids to learn with 3D models!",
         "main-focus": "Game Design",
-        "tags": ["Design", "Game Design", "Canva", "Unity AR", "C#"]
+        "tags": ["Design", "Game Design", "Canva", "Unity AR", "C#"],
+        "url": ""
     },
     {
+        "project-img": "media/portfolio-img placeholder.jpg",
         "project-name": "Barista Blend",
         "project-description": "Coffee Barista Simulation game in Unity VR (Game is in progress of being fixed)",
         "main-focus": "Game Design",
-        "tags": ["3D", "Game Design", "Canva", "Unity VR", "C#", "Google Firebase"]
+        "tags": ["3D", "Game Design", "Canva", "Unity VR", "C#", "Google Firebase"],
+        "url": ""
     },
     {
+        "project-img": "media/portfolio-img placeholder.jpg",
         "project-name": "Solace of Service",
         "project-description": "Work as a Social Worker Admin in Unity VR (Game is in progress of being fixed)",
         "main-focus": "Game Design",
-        "tags": ["3D", "Design", "Game Design", "Autodesk Maya", "Adobe Substance Painter", "Adobe Mixamo", "Unity VR", "Canva", "C#", "Google Firebase"]
+        "tags": ["3D", "Design", "Game Design", "Autodesk Maya", "Adobe Substance Painter", "Adobe Mixamo", "Unity VR", "Canva", "C#", "Google Firebase"],
+        "url": ""
     }
 ] 
