@@ -44,7 +44,7 @@
         "project-name": "The Wookie Playtime Store Website",
         "project-description": "Web store for a group project to sell \"merchandise\" created for that project",
         "main-focus": "Web Design",
-        "tags": ["Web Design", "Visual Studio Code", "HTML", "CSS", "JavaScript", "JSON", "Database and API"],
+        "tags": ["Web Design", "Visual Studio Code", "HTML", "CSS", "JavaScript", "JSON", "API"],
         "url": ""
     },
     {
@@ -100,7 +100,7 @@
         "project-name": "Sudoku Mobile Game",
         "project-description": "Simple sudoku game utilising Firebase and Unity",
         "main-focus": "Game Design",
-        "tags": ["Design", "Unity", "C#", "Canva", "Google Firebase"],
+        "tags": ["Design", "Unity", "C#", "Canva", "API"],
         "url": ""
     },
     {
@@ -108,7 +108,7 @@
         "project-name": "Alphapop AR Game",
         "project-description": "Vowel flashcards learning app for kids to learn with 3D models!",
         "main-focus": "Game Design",
-        "tags": ["Design", "Game Design", "Canva", "Unity AR", "C#"],
+        "tags": ["Design", "Game Design", "Canva", "Unity", "C#"],
         "url": ""
     },
     {
@@ -116,7 +116,7 @@
         "project-name": "Barista Blend",
         "project-description": "Coffee Barista Simulation game in Unity VR (Game is in progress of being fixed)",
         "main-focus": "Game Design",
-        "tags": ["3D", "Game Design", "Canva", "Unity VR", "C#", "Google Firebase"],
+        "tags": ["3D", "Game Design", "Canva", "Unity", "C#", "API"],
         "url": ""
     },
     {
@@ -124,7 +124,7 @@
         "project-name": "Solace of Service",
         "project-description": "Work as a Social Worker Admin in Unity VR (Game is in progress of being fixed)",
         "main-focus": "Game Design",
-        "tags": ["3D", "Design", "Game Design", "Autodesk Maya", "Adobe Substance Painter", "Adobe Mixamo", "Unity VR", "Canva", "C#", "Google Firebase"],
+        "tags": ["3D", "Design", "Game Design", "Autodesk Maya", "Adobe Substance Painter", "Adobe Mixamo", "Unity", "Canva", "C#", "API"],
         "url": ""
     }
 ] 
