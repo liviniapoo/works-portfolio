@@ -474,14 +474,35 @@
   .min-h-screen {
     min-height: 100vh;
   }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
+  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
   .w-\[7vw\] {
     width: 7vw;
   }
+  .w-\[99\.2vw\] {
+    width: 99.2vw;
+  }
+  .w-\[99\.3vw\] {
+    width: 99.3vw;
+  }
+  .w-\[99\.4vw\] {
+    width: 99.4vw;
+  }
+  .w-\[99\.5vw\] {
+    width: 99.5vw;
+  }
+  .w-\[99vw\] {
+    width: 99vw;
+  }
   .w-\[100vw\] {
     width: 100vw;
+  }
+  .w-\[vw\] {
+    width: vw;
   }
   .w-fit {
     width: fit-content;
@@ -2040,6 +2061,26 @@
   grid-column: 4/5;
   margin-top: 325px;
   margin-left: 40px;
+}
+.projects-list-container h1 {
+  margin-left: 1.5vw;
+  font-size: 50px;
+}
+.projects-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+}
+.projects-list .project-item {
+  background-color: #fff;
+}
+.projects-list .project-item img {
+  width: 10vw;
+  cursor: pointer;
 }
 .contact-grid-container {
   display: grid;

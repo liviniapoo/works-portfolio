@@ -1,18 +1,23 @@
-let projectListHTML = document.querySelector('.projects-list');
 let projectList = [];
 
 const addProjectsToHTML = () =>{
-    projectListHTML.innerHTML='';
+    document.querySelectorAll('.projects-list').forEach(section => section.innerHTML = '');
+
     if(projectList.length > 0){
         projectList.forEach(project => {
-            let newProject = document.createElement('div');
-            newProject.classList.add('project-item');
-            newProject.innerHTML = `
-                <a href="${project.url}"><img src="${project["project-img"]}"></a>
-                <h2>${project["project-name"]}</h2>
-                <p>${project["project-description"]}</p>
-            `;
-            projectListHTML.appendChild(newProject);
+            let focus = project["main-focus"].toLowerCase().replace(/\s/g,'');
+            let assignedSection = document.getElementById(focus);
+
+            if(assignedSection){
+                let newProject = document.createElement('div');
+                newProject.classList.add('project-item');
+                newProject.innerHTML = `
+                    <a href="${project.url}"><img src="${project["project-img"]}"></a>
+                    <h2>${project["project-name"]}</h2>
+                    <p>${project["project-description"]}</p>
+                `;
+                assignedSection.appendChild(newProject);
+            }
         });
     }
 }
