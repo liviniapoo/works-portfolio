@@ -9,7 +9,6 @@
     --color-red-500: oklch(0.637 0.237 25.331);
     --color-blue-300: oklch(0.809 0.105 251.813);
     --color-blue-400: oklch(0.707 0.165 254.624);
-    --color-gray-400: oklch(0.707 0.022 261.325);
     --color-white: #fff;
     --spacing: 0.25rem;
     --text-5xl: 3rem;
@@ -482,9 +481,6 @@
   }
   .w-\[99\.4vw\] {
     width: 99.4vw;
-  }
-  .w-\[100vw\] {
-    width: 100vw;
   }
   .w-fit {
     width: fit-content;
@@ -1478,9 +1474,6 @@
   }
   .text-\[\#FFF8E7\] {
     color: #FFF8E7;
-  }
-  .text-gray-400 {
-    color: var(--color-gray-400);
   }
   .text-white {
     color: var(--color-white);

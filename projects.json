@@ -60,7 +60,7 @@
         "project-name": "Office Building",
         "project-description": "Simple Modularly Built 3D Office Environment",
         "main-focus": "3D Modelling",
-        "tags": ["3D", "Autodesk Maya", "Unity", "ProBuilder"],
+        "tags": ["3D", "Unity", "ProBuilder"],
         "url": ""
     },
     {
@@ -93,7 +93,7 @@
         "project-description": "My first try at modelling my own character",
         "main-focus": "3D Modelling",
         "tags": ["3D", "Design", "Autodesk Maya", "Adobe Substance Painter", "Blender", "Adobe Photoshop", "Adobe Mixamo"],
-        "url": ""
+        "url": "https://www.artstation.com/artwork/zxB4VZ"
     },
     {
         "project-img": "media/portfolio-img placeholder.jpg",
