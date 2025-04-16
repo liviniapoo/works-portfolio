@@ -2054,7 +2054,7 @@
   background-color: #fff;
 }
 .projects-list .project-item img {
-  width: 10vw;
+  width: 100%;
   cursor: pointer;
 }
 .contact-grid-container {
