@@ -16,20 +16,12 @@
         "url": "https://youtu.be/HQPVFQVonXM"
     },
     {
-        "project-img": "media/portfolio-img placeholder.jpg",
+        "project-img": "media/project-thumbnails/TheDreamyOracle.png",
         "project-name": "The Dreamy Oracle",
         "project-description": "A physical adventure card-game",
         "main-focus": "Game Design",
         "tags": ["Game Design", "Canva", "Adobe Illustrator"],
-        "url": ""
-    },
-    {
-        "project-img": "media/portfolio-img placeholder.jpg",
-        "project-name": "NCT Dream Fan-Webpage",
-        "project-description": "Fan-made page made from scratch surrounding Korean Boy Group NCT Dream",
-        "main-focus": "Web Design",
-        "tags": ["Web Design", "Visual Studio Code", "HTML", "CSS", "JavaScript"],
-        "url": ""
+        "url": "https://youtu.be/_p9bMVyiFJA"
     },
     {
         "project-img": "media/portfolio-img placeholder.jpg",
@@ -40,12 +32,12 @@
         "url": ""
     },
     {
-        "project-img": "media/portfolio-img placeholder.jpg",
+        "project-img": "media/project-thumbnails/Wookie Playtime Website.png",
         "project-name": "The Wookie Playtime Store Website",
         "project-description": "Web store for a group project to sell \"merchandise\" created for that project",
         "main-focus": "Web Design",
         "tags": ["Web Design", "Visual Studio Code", "HTML", "CSS", "JavaScript", "JSON", "API"],
-        "url": ""
+        "url": "https://youtu.be/POVTWhQGxX0"
     },
     {
         "project-img": "media/portfolio-img placeholder.jpg",
