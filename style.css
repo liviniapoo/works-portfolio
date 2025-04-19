@@ -2096,6 +2096,9 @@
   margin-top: 17vh;
   margin-left: 2vw;
 }
+.artstation-link:hover {
+  color: #45647F;
+}
 @property --tw-translate-x {
   syntax: "*";
   inherits: false;
