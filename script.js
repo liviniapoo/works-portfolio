@@ -21,9 +21,11 @@ const addProjectsToHTML = () =>{
                 newProject.dataset.visible = 'true';
 
                 newProject.innerHTML = `
-                    <a href="${project.url}" target="_blank"><img src="${project["project-img"]}"></a>
-                    <h2>${project["project-name"]}</h2>
-                    <p>${project["project-description"]}</p>
+                    <img src="${project["project-img"]}">
+                    <a href="${project.url}" target="_blank" class="overlay">
+                        <h2>${project["project-name"]}</h2>
+                        <p>${project["project-description"]}</p>
+                    </a>
                 `;
                 assignedSection.appendChild(newProject);
             }

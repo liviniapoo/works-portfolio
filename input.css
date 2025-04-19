@@ -119,14 +119,45 @@
 }
 
 .projects-list .project-item{
+    position: relative;
+    overflow: hidden;
     background-color: #fff;
 }
 
 .projects-list .project-item img{
+    display: block;
     width: 100%;
+    cursor: pointer;                                                                                                                    
+}
+
+.projects-list .project-item .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0);
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding: 1em;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 2;
+
     cursor: pointer;
 }
 
+.projects-list .project-item:hover .overlay{
+    background-color: #45647F;
+    opacity: 1;
+}
 
 /******************
       CONTACT

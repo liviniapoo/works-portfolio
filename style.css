@@ -11,6 +11,8 @@
     --color-blue-400: oklch(0.707 0.165 254.624);
     --color-white: #fff;
     --spacing: 0.25rem;
+    --text-3xl: 1.875rem;
+    --text-3xl--line-height: calc(2.25 / 1.875);
     --text-5xl: 3rem;
     --text-5xl--line-height: 1;
     --font-weight-medium: 500;
@@ -358,6 +360,12 @@
   }
   .mb-7 {
     margin-bottom: calc(var(--spacing) * 7);
+  }
+  .ml-\[1vw\] {
+    margin-left: 1vw;
+  }
+  .ml-\[5vw\] {
+    margin-left: 5vw;
   }
   .box-border {
     box-sizing: border-box;
@@ -1365,6 +1373,10 @@
   .align-top {
     vertical-align: top;
   }
+  .text-3xl {
+    font-size: var(--text-3xl);
+    line-height: var(--tw-leading, var(--text-3xl--line-height));
+  }
   .text-5xl {
     font-size: var(--text-5xl);
     line-height: var(--tw-leading, var(--text-5xl--line-height));
@@ -2037,6 +2049,9 @@
   margin-top: 325px;
   margin-left: 40px;
 }
+.tag-filter-title {
+  margin-left: 1vw;
+}
 .projects-list-container h1 {
   margin-left: 1vw;
   font-size: 50px;
@@ -2051,11 +2066,38 @@
   margin-bottom: 5vh;
 }
 .projects-list .project-item {
+  position: relative;
+  overflow: hidden;
   background-color: #fff;
 }
 .projects-list .project-item img {
+  display: block;
   width: 100%;
   cursor: pointer;
+}
+.projects-list .project-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1em;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 2;
+  cursor: pointer;
+}
+.projects-list .project-item:hover .overlay {
+  background-color: #45647F;
+  opacity: 1;
 }
 .contact-grid-container {
   display: grid;
