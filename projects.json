@@ -24,12 +24,12 @@
         "url": "https://youtu.be/_p9bMVyiFJA"
     },
     {
-        "project-img": "media/portfolio-img placeholder.jpg",
+        "project-img": "media/project-thumbnails/SHEIN.png",
         "project-name": "Shein Rework (2023)",
         "project-description": "Figma prototype of my take on how a reworked SHEIN would look like",
         "main-focus": "Design",
         "tags": ["Design","Adobe Photoshop", "Figma", "Canva"],
-        "url": ""
+        "url": "https://youtu.be/-qObW8EGNHA"
     },
     {
         "project-img": "media/project-thumbnails/Wookie Playtime Website.png",
@@ -45,7 +45,7 @@
         "project-description": "3D Modular Environment focused around a Round Table and Floating Crystal",
         "main-focus": "3D Modelling",
         "tags": ["3D", "Autodesk Maya", "Adobe Substance Painter", "Z-Brush", "Unity"],
-        "url": ""
+        "url": "https://www.artstation.com/artwork/AZ5YVq"
     },
     {
         "project-img": "media/portfolio-img placeholder.jpg",
