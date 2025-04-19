@@ -65,7 +65,7 @@
     },
     {
         "project-img": "media/portfolio-img placeholder.jpg",
-        "project-name": "Escape Terra",
+        "project-name": "Stranded on Terra",
         "project-description": "Very simple adventure game about escaping an unknown planet",
         "main-focus": "Game Design",
         "tags": ["3D", "Game Design", "Autodesk Maya", "Adobe Substance Painter", "Unity", "C#"],
@@ -104,19 +104,19 @@
         "url": ""
     },
     {
-        "project-img": "media/portfolio-img placeholder.jpg",
+        "project-img": "media/project-thumbnails/BaristaBlend.png",
         "project-name": "Barista Blend",
         "project-description": "Coffee Barista Simulation game in Unity VR (Game is in progress of being fixed)",
         "main-focus": "Game Design",
         "tags": ["3D", "Game Design", "Canva", "Unity", "C#", "API"],
-        "url": ""
+        "url": "https://youtu.be/0BSq26_Ivn0"
     },
     {
-        "project-img": "media/portfolio-img placeholder.jpg",
+        "project-img": "media/project-thumbnails/Solace of Service.png",
         "project-name": "Solace of Service",
         "project-description": "Work as a Social Worker Admin in Unity VR (Game is in progress of being fixed)",
         "main-focus": "Game Design",
         "tags": ["3D", "Design", "Game Design", "Autodesk Maya", "Adobe Substance Painter", "Adobe Mixamo", "Unity", "Canva", "C#", "API"],
-        "url": ""
+        "url": "https://youtu.be/m2Y9pgIFaRA"
     }
 ] 
