@@ -21,7 +21,7 @@ const addProjectsToHTML = () =>{
                 newProject.dataset.visible = 'true';
 
                 newProject.innerHTML = `
-                    <a href="${project.url}"><img src="${project["project-img"]}"></a>
+                    <a href="${project.url}" target="_blank"><img src="${project["project-img"]}"></a>
                     <h2>${project["project-name"]}</h2>
                     <p>${project["project-description"]}</p>
                 `;
