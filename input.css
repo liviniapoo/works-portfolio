@@ -103,9 +103,31 @@
 /******************
       WORKS
 *******************/
+label{
+    margin-left: 1.2vw;
+    margin-bottom: 0.25vh;
+    font-size: 25px;   
+
+    color: #274d6e;
+    font-weight: 500;
+}
+
+select{
+    width: 7.5vw;
+    margin-left: 1vw;
+    padding: 0.25vw;
+    font-size: 20px;
+    
+    background-color: #c9def0;
+    color: #274d6e;
+    border-color: #274d6e;
+}
+
 .projects-list-container h1{
     margin-left: 1vw;
     font-size: 50px;
+    color: #5A7D9A;
+    font-weight: 600;
 }
 
 .projects-list{
@@ -159,6 +181,13 @@
     opacity: 1;
 }
 
+.projects-list .project-item .overlay h2{
+    font-size: 30px;
+}
+.projects-list .project-item .overlay p{
+    font-size: 18px;
+}
+
 /******************
       CONTACT
 *******************/
@@ -205,5 +234,5 @@
 }
 
 .artstation-link:hover{
-    color: #45647F;
+    color: #7ba4c7;
 }

@@ -11,8 +11,6 @@
     --color-blue-400: oklch(0.707 0.165 254.624);
     --color-white: #fff;
     --spacing: 0.25rem;
-    --text-3xl: 1.875rem;
-    --text-3xl--line-height: calc(2.25 / 1.875);
     --text-5xl: 3rem;
     --text-5xl--line-height: 1;
     --font-weight-medium: 500;
@@ -360,12 +358,6 @@
   }
   .mb-7 {
     margin-bottom: calc(var(--spacing) * 7);
-  }
-  .ml-\[1vw\] {
-    margin-left: 1vw;
-  }
-  .ml-\[5vw\] {
-    margin-left: 5vw;
   }
   .box-border {
     box-sizing: border-box;
@@ -1373,10 +1365,6 @@
   .align-top {
     vertical-align: top;
   }
-  .text-3xl {
-    font-size: var(--text-3xl);
-    line-height: var(--tw-leading, var(--text-3xl--line-height));
-  }
   .text-5xl {
     font-size: var(--text-5xl);
     line-height: var(--tw-leading, var(--text-5xl--line-height));
@@ -1480,6 +1468,9 @@
   }
   .text-\[\#5A7D9A\] {
     color: #5A7D9A;
+  }
+  .text-\[\#274d6e\] {
+    color: #274d6e;
   }
   .text-\[\#45647F\] {
     color: #45647F;
@@ -2049,12 +2040,27 @@
   margin-top: 325px;
   margin-left: 40px;
 }
-.tag-filter-title {
+label {
+  margin-left: 1.2vw;
+  margin-bottom: 0.25vh;
+  font-size: 25px;
+  color: #274d6e;
+  font-weight: 500;
+}
+select {
+  width: 7.5vw;
   margin-left: 1vw;
+  padding: 0.25vw;
+  font-size: 20px;
+  background-color: #c9def0;
+  color: #274d6e;
+  border-color: #274d6e;
 }
 .projects-list-container h1 {
   margin-left: 1vw;
   font-size: 50px;
+  color: #5A7D9A;
+  font-weight: 600;
 }
 .projects-list {
   display: grid;
@@ -2099,6 +2105,12 @@
   background-color: #45647F;
   opacity: 1;
 }
+.projects-list .project-item .overlay h2 {
+  font-size: 30px;
+}
+.projects-list .project-item .overlay p {
+  font-size: 18px;
+}
 .contact-grid-container {
   display: grid;
   grid-template-rows: 8vh 8vh 8vh;
@@ -2139,7 +2151,7 @@
   margin-left: 2vw;
 }
 .artstation-link:hover {
-  color: #45647F;
+  color: #7ba4c7;
 }
 @property --tw-translate-x {
   syntax: "*";
