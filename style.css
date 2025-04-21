@@ -1972,6 +1972,19 @@ nav a {
 .about-me-title {
   font-family: "Cherry Bomb One", system-ui;
 }
+.about-content .about-header {
+  font-size: 90px;
+}
+.about-content p {
+  font-family: "Dongle", sans-serif;
+  line-height: 50px;
+  font-size: 70px;
+}
+.about-content a {
+  font-family: "Dongle", sans-serif;
+  line-height: 50px;
+  font-size: 70px;
+}
 .image-wrapper {
   width: 25vw;
   aspect-ratio: 1/1;
@@ -2165,20 +2178,29 @@ select {
 .phone-number {
   grid-row: 1/2;
   grid-column: 2/3;
-  margin-top: 3.9vh;
+  margin-top: 4.75vh;
   margin-left: 2vw;
+  font-family: "Dongle", sans-serif;
+  line-height: 50px;
+  font-size: 70px;
 }
 .email-text {
   grid-row: 2/3;
   grid-column: 2/3;
-  margin-top: 10.6vh;
+  margin-top: 11.5vh;
   margin-left: 2vw;
+  font-family: "Dongle", sans-serif;
+  line-height: 50px;
+  font-size: 70px;
 }
 .artstation-link {
   grid-row: 3/4;
   grid-column: 2/3;
-  margin-top: 17vh;
+  margin-top: 18.5vh;
   margin-left: 2vw;
+  font-family: "Dongle", sans-serif;
+  line-height: 50px;
+  font-size: 70px;
 }
 .artstation-link:hover {
   color: #7ba4c7;
