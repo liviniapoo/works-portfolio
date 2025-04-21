@@ -3,7 +3,7 @@
         "project-img": "media/portfolio-img placeholder.jpg",
         "project-name": "3D Chess Set Model",
         "project-description": "One of my first few 3D Modelling projects: To create a Chess Set",
-        "main-focus": "3D Modelling",
+        "main-focus": "_3D Modelling",
         "tags": ["3D", "Autodesk Maya", "Adobe Substance Painter"],
         "url": ""
     },
@@ -43,7 +43,7 @@
         "project-img": "media/portfolio-img placeholder.jpg",
         "project-name": "Medieval Environment",
         "project-description": "3D Modular Environment focused around a Round Table and Floating Crystal",
-        "main-focus": "3D Modelling",
+        "main-focus": "_3D Modelling",
         "tags": ["3D", "Autodesk Maya", "Adobe Substance Painter", "Z-Brush", "Unity"],
         "url": "https://www.artstation.com/artwork/AZ5YVq"
     },
@@ -51,7 +51,7 @@
         "project-img": "media/portfolio-img placeholder.jpg",
         "project-name": "Office Building",
         "project-description": "Simple Modularly Built 3D Office Environment",
-        "main-focus": "3D Modelling",
+        "main-focus": "_3D Modelling",
         "tags": ["3D", "Unity", "ProBuilder"],
         "url": ""
     },
@@ -83,7 +83,7 @@
         "project-img": "media/portfolio-img placeholder.jpg",
         "project-name": "Sassy Girl Character",
         "project-description": "My first try at modelling my own character",
-        "main-focus": "3D Modelling",
+        "main-focus": "_3D Modelling",
         "tags": ["3D", "Design", "Autodesk Maya", "Adobe Substance Painter", "Blender", "Adobe Photoshop", "Adobe Mixamo"],
         "url": "https://www.artstation.com/artwork/zxB4VZ"
     },

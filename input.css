@@ -155,25 +155,33 @@ label{
     font-size: 25px;   
 
     color: #274d6e;
+    font-family: "Itim", cursive;
+    font-size: 30px;
     font-weight: 500;
 }
 
 select{
-    width: 7.5vw;
+    width: fit-content;
     margin-left: 1vw;
-    padding: 0.25vw;
-    font-size: 20px;
+    padding: 5px;
+    font-size: 17px;
     
     background-color: #c9def0;
     color: #274d6e;
+    font-family: "Itim", cursive;
+    font-size: 25px;
     border-color: #274d6e;
 }
 
 .projects-list-container h1{
     margin-left: 1vw;
-    font-size: 50px;
+    margin-top: 4vh;
+
+    font-family: "Dongle", sans-serif;
+    font-size: 120px;
     color: #5A7D9A;
-    font-weight: 600;
+    font-weight: 500;
+    line-height: 9vh;
 }
 
 .projects-list{
@@ -182,8 +190,24 @@ select{
     gap: 1vw;
     margin-left: 1vw;
     margin-right: 1vw;
-    margin-top: 2vh;
+    margin-top: 1vh;
     margin-bottom: 5vh;
+}
+
+#_3dmodelling{
+    margin-bottom: 10vh;
+}
+
+#gamedesign{
+    margin-bottom: 10vh;
+}
+
+#webdesign{
+    margin-bottom: 10vh;
+}
+
+#design{
+    margin-bottom: 10vh;
 }
 
 .projects-list .project-item{
@@ -228,10 +252,15 @@ select{
 }
 
 .projects-list .project-item .overlay h2{
-    font-size: 30px;
+    font-family: "Dongle", sans-serif;
+    line-height: 50px;
+    font-size: 60px;
 }
 .projects-list .project-item .overlay p{
-    font-size: 18px;
+    font-family: "Dongle", sans-serif;
+    line-height: 30px;
+    font-size: 30px;
+    font-style: italic;
 }
 
 /******************
