@@ -1,8 +1,33 @@
 @import "tailwindcss";
+/******************
+      NAV BAR
+*******************/
+nav a{
+    font-family: "Rubik Bubbles", system-ui;
+    font-size: 30px;
+}
+
 
 /******************
-    PROFILE IMG
+    INDEX PAGE
 *******************/
+.name-title{
+    font-family: "Cherry Bomb One", system-ui;
+}
+
+.welcome-text{
+    font-family: "Dongle", sans-serif;
+    line-height: 70px;
+    font-size: 90px;
+}
+
+/******************
+    ABOUT ME
+*******************/
+.about-me-title{
+    font-family: "Cherry Bomb One", system-ui;
+}
+
 .image-wrapper{
     width: 25vw;
     aspect-ratio: 1/1;
@@ -15,9 +40,6 @@
     clip-path: circle();
 }
 
-/******************
-      ABOUT
-*******************/
 .skillsets-div{
     width: 47vw;
     padding-bottom: 500px;
@@ -107,6 +129,10 @@
 /******************
       WORKS
 *******************/
+.works-title{
+    font-family: "Cherry Bomb One", system-ui;
+}
+
 label{
     margin-left: 1.2vw;
     margin-bottom: 0.25vh;
@@ -195,6 +221,10 @@ select{
 /******************
       CONTACT
 *******************/
+.contact-title{
+    font-family: "Cherry Bomb One", system-ui;
+}
+
 .contact-grid-container{
     display: grid;
     grid-template-rows: 8vh 8vh 8vh;

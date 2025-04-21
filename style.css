@@ -1957,6 +1957,21 @@
     }
   }
 }
+nav a {
+  font-family: "Rubik Bubbles", system-ui;
+  font-size: 30px;
+}
+.name-title {
+  font-family: "Cherry Bomb One", system-ui;
+}
+.welcome-text {
+  font-family: "Dongle", sans-serif;
+  line-height: 70px;
+  font-size: 90px;
+}
+.about-me-title {
+  font-family: "Cherry Bomb One", system-ui;
+}
 .image-wrapper {
   width: 25vw;
   aspect-ratio: 1/1;
@@ -2049,6 +2064,9 @@
 .unity-test-cert:hover {
   color: #7ba4c7;
 }
+.works-title {
+  font-family: "Cherry Bomb One", system-ui;
+}
 label {
   margin-left: 1.2vw;
   margin-bottom: 0.25vh;
@@ -2119,6 +2137,9 @@ select {
 }
 .projects-list .project-item .overlay p {
   font-size: 18px;
+}
+.contact-title {
+  font-family: "Cherry Bomb One", system-ui;
 }
 .contact-grid-container {
   display: grid;
