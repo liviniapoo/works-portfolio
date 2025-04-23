@@ -1,11 +1,11 @@
 [
     {
         "project-img": "media/portfolio-img placeholder.jpg",
-        "project-name": "3D Chess Set Model",
-        "project-description": "One of my first few 3D Modelling projects: To create a Chess Set",
+        "project-name": "3D Chess Knight Model",
+        "project-description": "A part of one of my first few 3D Modelling projects: To create a Chess Set",
         "main-focus": "_3D Modelling",
         "tags": ["3D", "Autodesk Maya", "Adobe Substance Painter"],
-        "url": ""
+        "url": "https://www.artstation.com/artwork/eR5GWZ"
     },
     {
         "project-img": "media/project-thumbnails/GYL.png",
@@ -88,20 +88,20 @@
         "url": "https://www.artstation.com/artwork/zxB4VZ"
     },
     {
-        "project-img": "media/portfolio-img placeholder.jpg",
+        "project-img": "media/project-thumbnails/Sudoku!.png",
         "project-name": "Sudoku Mobile Game",
         "project-description": "Simple sudoku game utilising Firebase and Unity",
         "main-focus": "Game Design",
         "tags": ["Design", "Unity", "C#", "Canva", "API"],
-        "url": ""
+        "url": "https://youtu.be/RuSr_Xro-s0"
     },
     {
-        "project-img": "media/portfolio-img placeholder.jpg",
+        "project-img": "media/project-thumbnails/Alphapop.png",
         "project-name": "Alphapop AR Game",
         "project-description": "Vowel flashcards learning app for kids to learn with 3D models!",
         "main-focus": "Game Design",
         "tags": ["Design", "Game Design", "Canva", "Unity", "C#"],
-        "url": ""
+        "url": "https://youtube.com/shorts/uHJpIqb1BYM"
     },
     {
         "project-img": "media/project-thumbnails/BaristaBlend.png",
