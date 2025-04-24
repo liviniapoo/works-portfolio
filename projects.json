@@ -48,14 +48,6 @@
         "url": "https://www.artstation.com/artwork/AZ5YVq"
     },
     {
-        "project-img": "media/portfolio-img placeholder.jpg",
-        "project-name": "Office Building",
-        "project-description": "Simple Modularly Built 3D Office Environment",
-        "main-focus": "_3D Modelling",
-        "tags": ["3D", "Unity", "ProBuilder"],
-        "url": ""
-    },
-    {
         "project-img": "media/project-thumbnails/DA V2.png",
         "project-name": "DA V2 App",
         "project-description": "Prototype of a new version of the TeleMedical Doctor Anywhere App",
@@ -72,7 +64,7 @@
         "url": ""
     },
     {
-        "project-img": "media/portfolio-img placeholder.jpg",
+        "project-img": "media/project-thumbnails/Festival Chaos.png",
         "project-name": "Festival Chaos",
         "project-description": "Simple game about helping a town get ready for their annual Harvest Festival",
         "main-focus": "Game Design",

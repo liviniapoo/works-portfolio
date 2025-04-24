@@ -263,6 +263,15 @@ select{
     font-style: italic;
 }
 
+.no-projects-msg{
+    margin-left: 0.25vw;
+
+    font-family: "Itim", cursive;
+    font-size: 25px;
+    font-weight: 500;
+    color: #7ba4c7;
+}
+
 /******************
       CONTACT
 *******************/
