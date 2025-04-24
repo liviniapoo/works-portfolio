@@ -198,6 +198,10 @@ select{
     margin-bottom: 10vh;
 }
 
+#_3dmodelling img{
+    height: 100%;
+}
+
 #gamedesign{
     margin-bottom: 10vh;
 }
@@ -339,7 +343,7 @@ select{
 
 .resume-container{
     margin-top: 15vh;
-    text-align: center;
+    text-align: center ;
     
 }
 

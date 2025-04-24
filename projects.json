@@ -1,6 +1,6 @@
 [
     {
-        "project-img": "media/portfolio-img placeholder.jpg",
+        "project-img": "media/project-thumbnails/Chess Set.png",
         "project-name": "3D Chess Knight Model",
         "project-description": "A part of one of my first few 3D Modelling projects: To create a Chess Set",
         "main-focus": "_3D Modelling",
@@ -40,7 +40,7 @@
         "url": "https://youtu.be/POVTWhQGxX0"
     },
     {
-        "project-img": "media/portfolio-img placeholder.jpg",
+        "project-img": "media/project-thumbnails/Medieval Environment.png",
         "project-name": "Medieval Environment",
         "project-description": "3D Modular Environment focused around a Round Table and Floating Crystal",
         "main-focus": "_3D Modelling",
@@ -56,14 +56,6 @@
         "url": "https://youtu.be/8Eyoeb7MZIE"
     },
     {
-        "project-img": "media/portfolio-img placeholder.jpg",
-        "project-name": "Stranded on Terra",
-        "project-description": "Very simple adventure game about escaping an unknown planet",
-        "main-focus": "Game Design",
-        "tags": ["3D", "Game Design", "Autodesk Maya", "Adobe Substance Painter", "Unity", "C#"],
-        "url": ""
-    },
-    {
         "project-img": "media/project-thumbnails/Festival Chaos.png",
         "project-name": "Festival Chaos",
         "project-description": "Simple game about helping a town get ready for their annual Harvest Festival",
@@ -72,7 +64,7 @@
         "url": ""
     },
     {
-        "project-img": "media/portfolio-img placeholder.jpg",
+        "project-img": "media/project-thumbnails/Character Model.png",
         "project-name": "Sassy Girl Character",
         "project-description": "My first try at modelling my own character",
         "main-focus": "_3D Modelling",
