@@ -16,6 +16,8 @@
 </head>
 
 <body class="flex flex-col h-[100vh] w-[99.4vw]" style="background-image: url('media/checkered\ bg.jpg')">
+
+  <!-- Navigation Bar -->
   <nav class="w-full h-fit flex justify-around pt-[20px]">
     <a href="index.html"
       class="rounded-md px-3 py-2 text-[20px] font-medium text-[#45647F] hover:bg-blue-300 hover:text-white">Home</a>
@@ -31,10 +33,13 @@
   </nav>
 
   <div class="flex justify-center self-center align-center flex-col mt-[50px] project-page">
+    <!-- Title -->
     <p class="text-[125px] text-[#5A7D9A] text-center works-title">My Works</p>
 
+    <!-- Subtitle -->
     <p class="text-[#5A7D9A] text-center works-subtitle">Here are some of my project that I've picked out!</p>
 
+    <!-- Dropdown to Filter Projects -->
     <label for="tagFilter">Filter by App</label>
     <select id="tagFilter">
       <option value="all">Show All</option>
@@ -52,6 +57,7 @@
       <option value="Z-Brush">Z-Brush</option>
     </select>
 
+    <!-- Project Grid -->
     <div class="projects-list-container">
       <h1>3D Modelling</h1>
       <div class="projects-list" id="_3dmodelling"></div>
