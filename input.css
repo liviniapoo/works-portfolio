@@ -3,7 +3,7 @@
       NAV BAR
 *******************/
 nav a{
-    font-family: "Rubik Bubbles", system-ui;
+    font-family: "Jua", sans-serif;
     font-size: 30px;
 }
 
@@ -147,6 +147,13 @@ nav a{
 *******************/
 .works-title{
     font-family: "Cherry Bomb One", system-ui;
+}
+
+.works-subtitle{
+    font-family: "Dongle", sans-serif;
+    font-size: 50px;
+    color: #5A7D9A;
+    margin-top: 3px;
 }
 
 label{
