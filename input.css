@@ -295,8 +295,8 @@ select{
 
 .contact-grid-container{
     display: grid;
-    grid-template-rows: 8vh 8vh 8vh 8vh;
-    grid-template-columns: 7vw 30vw;
+    grid-template-rows: 8vh 8vh 8vh 8vh 8vh;
+    grid-template-columns: 7vw 40vw;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -314,6 +314,11 @@ select{
     grid-row: 3/4;
     grid-column: 1/2;
     margin-top: 13.75vh;
+}
+.linkedin-icon{
+    grid-row: 4/5;
+    grid-column: 1/2;
+    margin-top: 21vh;
 }
 
 .phone-number{
@@ -350,15 +355,25 @@ select{
 .artstation-link:hover{
     color: #7ba4c7;
 }
+.linkedin-text{
+    grid-row: 4/5;
+    grid-column: 2/3;
+    margin-top: 23.5vh;
+    margin-left: 2vw;
+
+    font-family: "Dongle", sans-serif;
+    line-height: 50px;
+    font-size: 70px;
+}
 
 .resume-container{
-    margin-top: 15vh;
+    margin-top: 22vh;
     text-align: center ;
     
 }
 
 .resume-link{
-    grid-row: 4/5;
+    grid-row: 5/6;
     grid-column: 2/3;
     margin-top: 20vh;
     margin-left: 2vw;
