@@ -1,7 +1,7 @@
 let projectList = [];
 
 const addProjectsToHTML = () =>{
-    const sectionIDs = ['_3dmodelling', 'gamedesign', 'webdesign', 'design'];
+    const sectionIDs = ['_3dmodelling', 'gamedesign', 'webdesign', 'design', 'mge/vids'];
 
     sectionIDs.forEach(id => {
         const assignedSection = document.getElementById(id);
@@ -46,7 +46,7 @@ document.getElementById('tagFilter').addEventListener('change', function(){
 });
 
 const filterProjectsByTag = (tag) => {
-    const sectionIDs = ['_3dmodelling', 'gamedesign', 'webdesign', 'design'];
+    const sectionIDs = ['_3dmodelling', 'gamedesign', 'webdesign', 'design', 'mge/vids'];
 
     sectionIDs.forEach(id => {
         const section = document.getElementById(id);

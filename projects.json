@@ -102,5 +102,29 @@
         "main-focus": "Game Design",
         "tags": ["3D", "Design", "Game Design", "Autodesk Maya", "Adobe Substance Painter", "Adobe Mixamo", "Unity", "Canva", "C#", "API", "UI/UX"],
         "url": "https://youtu.be/m2Y9pgIFaRA"
+    },
+    {
+        "project-img": "media/project-thumbnails/Solace of Service.png",
+        "project-name": "Brand Introduction",
+        "project-description": "5-second promotional video for Duolingo Brand",
+        "main-focus": "MGE/Vids",
+        "tags": ["MGE", "Video Editing", "Adobe After Effects", "Adobe Illustrator"],
+        "url": "https://youtu.be/m2Y9pgIFaRA"
+    },
+    {
+        "project-img": "media/project-thumbnails/Solace of Service.png",
+        "project-name": "Travel Promo Video",
+        "project-description": "A 30-second promotional video for The Netherlands",
+        "main-focus": "MGE/Vids",
+        "tags": ["MGE", "Video Editing", "Adobe After Effects", "Canva", "Adobe Photoshop"],
+        "url": "https://youtu.be/m2Y9pgIFaRA"
+    },
+    {
+        "project-img": "media/project-thumbnails/Solace of Service.png",
+        "project-name": "Music Countdown Chart",
+        "project-description": "Motion Effect-Graphic Music Countdown of my Top 5 Songs",
+        "main-focus": "MGE/Vids",
+        "tags": ["MGE", "Video Editing", "Adobe After Effects"],
+        "url": "https://youtu.be/m2Y9pgIFaRA"
     }
 ] 
