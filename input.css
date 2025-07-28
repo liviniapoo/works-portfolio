@@ -34,19 +34,19 @@ nav a{
 }
 
 .about-content .about-header{
-    font-size: 90px;
+    /* font-size: 90px; */
 }
 
 .about-content p{
     font-family: "Dongle", sans-serif;
     line-height: 50px;
-    font-size: 70px;
+    /* font-size: 70px; */
 }
 
 .about-content a{
     font-family: "Dongle", sans-serif;
     line-height: 50px;
-    font-size: 70px;
+    /* font-size: 70px; */
 }
 
 .image-wrapper{
@@ -152,6 +152,46 @@ nav a{
 .unity-test-cert:hover{
     color: #7ba4c7;
 }
+
+@media only screen and (max-width: 600px){
+    .about-content p{
+        line-height: 30px;
+    }
+
+    .skillset2{
+        margin-top: 16px;
+    }
+    .skillset3{
+        margin-top: 15px;
+    }
+    .skillset4{
+        margin-top: 15px;
+    }
+    .skillset5{
+        margin-top: -10px;
+    }
+    .skillset6{
+        margin-top: -10px;
+    }
+    .skillset7{
+        margin-top: -9px;
+    }
+    .skillset8{
+        margin-top: -10px;
+    }
+    .skillset9{
+        margin-top: -35px;
+    }
+    .skillset10{
+        width: 80%;
+        margin-top: -40px;
+        margin-left: 5px;
+    }
+    .skillset11{
+        width: 84%;
+        margin-top: -39px;
+        margin-left: 2px;
+    }
 
 /******************
       WORKS
