@@ -34,7 +34,7 @@ nav a{
 }
 
 .about-content .about-header{
-    /* font-size: 90px; */
+    font-size: 90px;
 }
 
 .about-content p{
@@ -158,6 +158,11 @@ nav a{
         line-height: 30px;
     }
 
+    .about-content .about-header{
+        font-size: 50px;
+        margin-left: -25px;
+    }
+
     .skillset2{
         margin-top: 16px;
     }
@@ -188,11 +193,19 @@ nav a{
         margin-left: 5px;
     }
     .skillset11{
-        width: 84%;
-        margin-top: -39px;
-        margin-left: 2px;
+        width: 82%;
+        margin-top: -37px;
+        margin-left: 5px;
     }
-
+    .skillset12{
+        margin-top: -41px;
+        margin-left: 4px;
+    }
+    .skillset13{
+        margin-top: -55px;
+        margin-left: 1px;
+    }
+}
 /******************
       WORKS
 *******************/

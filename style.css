@@ -274,11 +274,11 @@
   .p-10 {
     padding: calc(var(--spacing) * 10);
   }
+  .px-1 {
+    padding-inline: calc(var(--spacing) * 1);
+  }
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
-  }
-  .px-6 {
-    padding-inline: calc(var(--spacing) * 6);
   }
   .px-\[15vw\] {
     padding-inline: 15vw;
@@ -395,11 +395,6 @@
       font-size: 40px;
     }
   }
-  .sm\:text-\[60px\] {
-    @media (width >= 40rem) {
-      font-size: 60px;
-    }
-  }
   .sm\:text-\[70px\] {
     @media (width >= 40rem) {
       font-size: 70px;
@@ -425,11 +420,6 @@
       font-size: 60px;
     }
   }
-  .md\:text-\[75px\] {
-    @media (width >= 48rem) {
-      font-size: 75px;
-    }
-  }
   .md\:text-\[100px\] {
     @media (width >= 48rem) {
       font-size: 100px;
@@ -448,11 +438,6 @@
   .lg\:text-\[80px\] {
     @media (width >= 64rem) {
       font-size: 80px;
-    }
-  }
-  .lg\:text-\[90px\] {
-    @media (width >= 64rem) {
-      font-size: 90px;
     }
   }
   .lg\:text-\[150px\] {
@@ -478,6 +463,9 @@ nav a {
 }
 .about-me-title {
   font-family: "Cherry Bomb One", system-ui;
+}
+.about-content .about-header {
+  font-size: 90px;
 }
 .about-content p {
   font-family: "Dongle", sans-serif;
@@ -589,6 +577,10 @@ nav a {
   .about-content p {
     line-height: 30px;
   }
+  .about-content .about-header {
+    font-size: 50px;
+    margin-left: -25px;
+  }
   .skillset2 {
     margin-top: 16px;
   }
@@ -619,9 +611,17 @@ nav a {
     margin-left: 5px;
   }
   .skillset11 {
-    width: 84%;
-    margin-top: -39px;
-    margin-left: 2px;
+    width: 82%;
+    margin-top: -37px;
+    margin-left: 5px;
+  }
+  .skillset12 {
+    margin-top: -41px;
+    margin-left: 4px;
+  }
+  .skillset13 {
+    margin-top: -55px;
+    margin-left: 1px;
   }
 }
 .works-title {
