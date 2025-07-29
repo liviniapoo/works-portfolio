@@ -2,9 +2,50 @@
 /******************
       NAV BAR
 *******************/
+nav{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.25rem;
+}
+
 nav a{
     font-family: "Jua", sans-serif;
     /* font-size: 30px; */
+}
+
+.active-page{
+    border-radius: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    --tw-bg-opacity: 1;
+    background-color: rgba(96, 165, 250, var(--tw-bg-opacity));
+
+    font-size: 3rem;
+    font-weight: 400;
+    color: white;
+}
+
+.inactive-page{
+    border-radius: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    font-size: 3rem;
+    font-weight: 400;
+    color: #45647F;
+}
+
+.inactive-page:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgba(147, 197, 253, var(--tw-bg-opacity));
+    color: white;
 }
 
 /* @media only screen and (max-width: 600px){
@@ -34,7 +75,7 @@ nav a{
 }
 
 .about-content .about-header{
-    font-size: 90px;
+    font-size: 100px;
 }
 
 .about-content p{

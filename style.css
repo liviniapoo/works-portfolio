@@ -7,7 +7,6 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-blue-300: oklch(0.809 0.105 251.813);
-    --color-blue-400: oklch(0.707 0.165 254.624);
     --color-white: #fff;
     --spacing: 0.25rem;
     --text-5xl: 3rem;
@@ -19,6 +18,8 @@
     --radius-md: 0.375rem;
     --radius-2xl: 1rem;
     --radius-4xl: 2rem;
+    --default-transition-duration: 150ms;
+    --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
     --default-font-feature-settings: var(--font-sans--font-feature-settings);
     --default-font-variation-settings: var(
@@ -178,9 +179,6 @@
   .visible {
     visibility: visible;
   }
-  .fixed {
-    position: fixed;
-  }
   .mt-6 {
     margin-top: calc(var(--spacing) * 6);
   }
@@ -199,8 +197,8 @@
   .flex {
     display: flex;
   }
-  .grid {
-    display: grid;
+  .table {
+    display: table;
   }
   .h-\[100vh\] {
     height: 100vh;
@@ -238,6 +236,12 @@
   .basis-\[30\%\] {
     flex-basis: 30%;
   }
+  .border-collapse {
+    border-collapse: collapse;
+  }
+  .resize {
+    resize: both;
+  }
   .flex-col {
     flex-direction: column;
   }
@@ -271,11 +275,12 @@
   .rounded-md {
     border-radius: var(--radius-md);
   }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
   .bg-\[\#A4C3D6\] {
     background-color: #A4C3D6;
-  }
-  .bg-blue-400 {
-    background-color: var(--color-blue-400);
   }
   .p-10 {
     padding: calc(var(--spacing) * 10);
@@ -321,9 +326,6 @@
     font-size: var(--text-6xl);
     line-height: var(--tw-leading, var(--text-6xl--line-height));
   }
-  .text-\[20px\] {
-    font-size: 20px;
-  }
   .text-\[30px\] {
     font-size: 30px;
   }
@@ -362,8 +364,8 @@
   .text-\[\#FFF8E7\] {
     color: #FFF8E7;
   }
-  .text-white {
-    color: var(--color-white);
+  .underline {
+    text-decoration-line: underline;
   }
   .ring-4 {
     --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(4px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentColor);
@@ -371,6 +373,15 @@
   }
   .ring-\[\#7B9EB6\] {
     --tw-ring-color: #7B9EB6;
+  }
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
+  }
+  .transition {
+    transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
   .hover\:bg-blue-300 {
     &:hover {
@@ -457,8 +468,42 @@
     }
   }
 }
+nav {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1.25rem;
+}
 nav a {
   font-family: "Jua", sans-serif;
+}
+.active-page {
+  border-radius: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(96, 165, 250, var(--tw-bg-opacity));
+  font-size: 3rem;
+  font-weight: 400;
+  color: white;
+}
+.inactive-page {
+  border-radius: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #45647F;
+}
+.inactive-page:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(147, 197, 253, var(--tw-bg-opacity));
+  color: white;
 }
 .name-title {
   font-family: "Cherry Bomb One", system-ui;
@@ -471,7 +516,7 @@ nav a {
   font-family: "Cherry Bomb One", system-ui;
 }
 .about-content .about-header {
-  font-size: 90px;
+  font-size: 100px;
 }
 .about-content p {
   font-family: "Dongle", sans-serif;
@@ -828,6 +873,11 @@ select {
 .resume-link:hover {
   color: #7ba4c7;
 }
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
 @property --tw-leading {
   syntax: "*";
   inherits: false;
@@ -890,4 +940,9 @@ select {
   syntax: "*";
   inherits: false;
   initial-value: 0 0 #0000;
+}
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
 }
