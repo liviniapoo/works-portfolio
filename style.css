@@ -173,6 +173,9 @@
   .visible {
     visibility: visible;
   }
+  .fixed {
+    position: fixed;
+  }
   .mt-6 {
     margin-top: calc(var(--spacing) * 6);
   }
@@ -190,6 +193,9 @@
   }
   .flex {
     display: flex;
+  }
+  .grid {
+    display: grid;
   }
   .h-\[100vh\] {
     height: 100vh;
